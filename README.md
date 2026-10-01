@@ -12,7 +12,7 @@ A client-side instrument for evaluating password entropy, dictionary susceptibil
 ## Live Demonstration
 
 Deployable directly via GitHub Pages:
-- **Live Application:** [Launch PassAnalyzer](https://itz-ansh.github.io/PassAnalyzer/) *(or host locally)*
+- **Live Application:** [Launch PassAnalyzer](https://cyber-anshuman.github.io/PasswordAnalyzer/) *(or host locally)*
 
 ---
 

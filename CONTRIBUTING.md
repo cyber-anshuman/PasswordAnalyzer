@@ -27,7 +27,7 @@ Before submitting changes, please keep our core tenets in mind:
 ## How Can I Contribute?
 
 ### Reporting Bugs
-- Check the [existing issues](https://github.com/itz-Ansh/PassAnalyzer/issues) before opening a new one.
+- Check the [existing issues](https://github.com/cyber-anshuman/PasswordAnalyzer/issues) before opening a new one.
 - Use the **Bug Report** template and include browser version, OS, steps to reproduce, and actual vs. expected behavior.
 - *For security-related issues, please refer to [SECURITY.md](SECURITY.md).*
 
