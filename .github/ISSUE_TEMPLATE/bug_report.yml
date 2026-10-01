@@ -1,0 +1,55 @@
+name: Bug Report
+description: Report a bug, UI flaw, or calculation anomaly
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve PassAnalyzer!
+        > **Note:** If you are reporting a security vulnerability or sensitive data issue, please follow our [Security Policy](../../SECURITY.md) instead of creating a public issue.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the Bug
+      description: A clear and concise description of what the problem is.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: How can someone reproduce the issue?
+      placeholder: |
+        1. Open index.html in browser
+        2. Enter password '...'
+        3. Observe crack time calculation / UI behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected vs. Actual Behavior
+      description: What did you expect to happen, and what happened instead?
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: Environment & Browser
+      description: Which browser, version, and OS are you using?
+      placeholder: "e.g., Chrome 128 on macOS / Firefox 130 on Windows 11"
+    validations:
+      required: false
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context or Console Logs
+      description: Add any screenshots, console error traces, or other details.
+    validations:
+      required: false

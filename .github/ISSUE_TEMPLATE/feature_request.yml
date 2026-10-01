@@ -1,0 +1,43 @@
+name: Feature Request
+description: Propose a new feature, heuristic improvement, or technical reference
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have an idea to make PassAnalyzer more accurate, intuitive, or useful? Please share it!
+        Make sure the proposal respects our zero-trust, client-only privacy model and restrained paper-and-ink aesthetic.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Is your feature request related to a problem?
+      description: A clear description of what the problem or limitation is.
+      placeholder: "I'm always frustrated when..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution or Behavior
+      description: Describe the solution you'd like to see implemented.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Any alternative solutions or workarounds you've thought of.
+    validations:
+      required: false
+
+  - type: textarea
+    id: references
+    attributes:
+      label: Technical References or Standards
+      description: Links to papers, NIST guidelines, or cryptographic benchmarks (if applicable).
+    validations:
+      required: false
